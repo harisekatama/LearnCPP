@@ -4,13 +4,13 @@ using namespace std;
 void main()
 {
 	/*
-		Jenis Jenis Komparasi
-		== Sebanding atau sama dengan
-		!* Tidak sebanding atau tidak sama dengan
-		< Kurang dari
-		> Lebih dari
-		<= Kurang dari atau sama dengan
-		>= Lebih dari atau sama dengan
+		Jenis Jenis Komparasi !
+		== untuk sebanding atau sama dengan
+		!* untuk tidak sebanding atau tidak sama dengan
+		<  untuk kurang dari
+		>  untuk lebih dari
+		<= untuk kurang dari atau sama dengan
+		>= untuk lebih dari atau sama dengan
 	*/
 
 	int a = 5;
@@ -31,11 +31,11 @@ void main()
 
 	//Kurang dari
 	hasil = a < b;
-	cout << "Apakah " << a << " < " << b << " ? Jawabannya : " << hasil << endl;
+	cout << "Apakah " << a << " < " << b << " ?  Jawabannya : " << hasil << endl;
 
 	//Lebih dari
 	hasil = a > b;
-	cout << "Apakah " << a << " > " << b << " ? Jawabannya : " << hasil << endl;
+	cout << "Apakah " << a << " > " << b << " ?  Jawabannya : " << hasil << endl;
 
 	//Kurang dari atau sama dengan
 	hasil = a <= b;
