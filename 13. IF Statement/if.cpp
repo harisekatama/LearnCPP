@@ -16,11 +16,19 @@ void main()
 		{
 			statement;
 		}
+		else
+		{
+			statement;
+		}
 	*/
 
 	if (a == 5)
 	{
 		cout << "Angka yang anda masukkan bernilai 5\n";
+	}
+	else
+	{
+		cout << "Angka yang anda masukkan bukan 5\n";
 	}
   
 	cout << "Program selesai dijalankan";
