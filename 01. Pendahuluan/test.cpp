@@ -1,7 +1,7 @@
-  
 #include <iostream>
+using namespace std;
 
-//comment
+//comment 1 baris
 /* multi
 line
 comment
@@ -9,9 +9,9 @@ comment
 
 int main()
 {
-	int a;
-	std::cout << "halo kalian" << std::endl;
-	std::cin >> a;
-	std::cout << a << std::endl;
+	int n;
+	cout << "Halloo Semuaa" << endl;
+	cin >> n;
+	cout << n << endl;
 	return 0;
 }
