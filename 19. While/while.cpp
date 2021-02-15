@@ -9,7 +9,7 @@ int main()
 	cin >> a;
 
 	/*
-		//Ketika kondisi terpenuhi atau true, maka statement dijalankan
+		//Ketika kondisi terpenuhi atau true, maka statement dijalankan dan akan terus dilooping sampai kondisi tidak terpenuhi
 		//Jika kondisi tidak terpenuhi atau false, maka statement dilewati
 		while (kondisi)
 		{
