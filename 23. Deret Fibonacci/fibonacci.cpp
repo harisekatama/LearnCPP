@@ -15,15 +15,17 @@ int main()
 	cout << "DERET FIBONACCI !\n";
 	cout << "Masukkan nilai n : ";
 	cin >> n;
+	cout << endl;
 
 	for (int i = 1; i <= n; i++)
 	{
 		hasil = fn1 + fn2;
 		fn2 = fn1;
 		fn1 = hasil;
+		cout << hasil << " ";
 	}
 
-	cout << "\nDeret Fibonacci ke " << n << " adalah " << hasil << endl;
+	cout << "\n\nDeret Fibonacci ke " << n << " adalah " << hasil << endl;
 
 	cin.get();
 	return 0;
