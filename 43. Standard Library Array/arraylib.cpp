@@ -1,31 +1,33 @@
-#include <iostream>
-#include <array>
-
+#include<iostream>
+#include<array> //STANDARD LIBRARY UNTUK ARRAY
 using namespace std;
 
-
-int main(){
-
-	// membuat array dengan menggunakan standard library
-	// array<int, jumlah array> nama array
-
-	array < int, 5 > nilai;
-
-	for(int i = 0; i <= 4 ; i++){
-		nilai[i] = i;
-		cout << "nilai [" << i << "] = " << nilai[i];
-		cout << " address : " << &nilai[i] << endl;
+int main()
+{
+	/*
+		CARA MEMBUAT ARRAY DENGAN MENGGUNAKAN STANDARD LIBRARY
+		array < int, jumlah_array > nama_array
+	*/
+	
+	array<int, 5>nilai;
+	
+	for (int i = 0; i < 5; i++)
+	{
+		nilai[i] = i + 2;
+		cout << "Value dari nilai[" << i << "] : " << nilai[i] << " , Address : " << &nilai[i] << endl;
 	}
 
-	cout << endl;
-	// ukuran array
-	cout << "ukuran : " << nilai.size() << endl;
-	// address awal dari array
-	cout << "address awal : " << nilai.begin() << endl;
-	// address akhir dari array
-	cout << "address akhir : " << nilai.end() << endl;
-	// nilai dengan index
-	cout << "nilai ke 2 : " << nilai.at(2) << endl;
+	//UKURAN DARI ARRAY
+	cout << "\nUkuran array : " << nilai.size() << " Byte\n";
+	
+	//ADDRESS AWAL DARI ARRAY
+	cout << "\nAddress awal  : " << nilai.begin() << endl;
+
+	//ADDRESS AKHIR DARI ARRAY
+	cout << "\nAddress akhir : " << nilai.end() << endl;
+
+	//COUT VALUE DENGAN INDEX
+	cout << "Value array ke 2 : " << nilai.at(2) << endl;
 
 	cin.get();
 	return 0;
