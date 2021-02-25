@@ -1,4 +1,5 @@
 #include<iostream>
+#include<array>
 using namespace std;
 
 int main()
@@ -11,7 +12,7 @@ int main()
 		}
 	*/
 	
-	int arrayNilai[10] = { 0,1,2,3,4,5,6,7,8,9 };
+	array<int, 10>arrayNilai = { 0,1,2,3,4,5,6,7,8,9 };
 
 	cout << "LOOPING ARRAY\n";
 	for (int nilai : arrayNilai)
