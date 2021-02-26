@@ -5,37 +5,8 @@ using namespace std;
 
 const size_t arraySize = 10;
 
-/*
-void nama_fungsi(array<int, ukuran_array> nama_array)
-{
-	statement;
-	for (jenis_variabel nama_variabel : nama_array)
-	{
-		statement;
-	}
-	statement;
-}
-*/
-
-void printArray(array<int, arraySize> angka)
-{
-		cout << "Array : ";
-		for (int a : angka)
-		{
-			cout << a << " ";
-		}
-		cout << "\n";
-}
-
-void printArray(array<char, arraySize> huruf)
-{
-	cout << "Array : ";
-	for (char a : huruf)
-	{
-		cout << a << " ";
-	}
-	cout << "\n";
-}
+void printArray(array<int, arraySize> angka);
+void printArray(array<char, arraySize> huruf);
 
 int main()
 {
@@ -55,4 +26,36 @@ int main()
 
 	cin.get();
 	return 0;
+}
+
+/*
+void nama_fungsi(array<int, ukuran_array> nama_array)
+{
+	statement;
+	for (jenis_variabel nama_variabel : nama_array)
+	{
+		statement;
+	}
+	statement;
+}
+*/
+
+void printArray(array<int, arraySize> angka)
+{
+	cout << "Array : ";
+	for (int a : angka)
+	{
+		cout << a << " ";
+	}
+	cout << "\n";
+}
+
+void printArray(array<char, arraySize> huruf)
+{
+	cout << "Array : ";
+	for (char a : huruf)
+	{
+		cout << a << " ";
+	}
+	cout << "\n";
 }
