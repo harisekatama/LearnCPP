@@ -10,36 +10,38 @@ int main()
 {
 	warna baju;
 
-	baju = biru;
+	baju = merah;
 
 	if (baju == 0)
 	{
-		cout << "Baju merah berada pada index ke : " << baju << endl;
+		cout << "Baju merah berada pada index ke : ";
 	}
 	else if (baju == 1)
 	{
-		cout << "Baju jingga berada pada index ke : " << baju << endl;
+		cout << "Baju jingga berada pada index ke : ";
 	}
 	else if (baju == 2)
 	{
-		cout << "Baju kuning berada pada index ke : " << baju << endl;
+		cout << "Baju kuning berada pada index ke : ";
 	}
 	else if (baju == 5)
 	{
-		cout << "Baju hijau berada pada index ke : " << baju << endl;
+		cout << "Baju hijau berada pada index ke : ";
 	}
 	else if (baju == 6)
 	{
-		cout << "Baju biru berada pada index ke : " << baju << endl;
+		cout << "Baju biru berada pada index ke : ";
 	}
 	else if (baju == 7)
 	{
-		cout << "Baju nila berada pada index ke : " << baju << endl;
+		cout << "Baju nila berada pada index ke : ";
 	}
 	else if (baju == 8)
 	{
-		cout << "Baju ungu berada pada index ke : " << baju << endl;
+		cout << "Baju ungu berada pada index ke : ";
 	}
+
+	cout << baju << endl;
 
 	cin.get();
 	return 0;
