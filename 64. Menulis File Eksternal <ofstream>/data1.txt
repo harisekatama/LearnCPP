@@ -1,0 +1,2 @@
+
+Ini file data1.txt
