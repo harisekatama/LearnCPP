@@ -1,0 +1,10 @@
+ini merupakan file external.
+dan ini adalah baris kedua.
+
+data
+No	Nama
+1	I
+2	Putu
+3	Haris
+4	Setiadi
+5	Ekatama
